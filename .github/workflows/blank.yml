@@ -18,6 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: ssh root@1.116.80.174 |
-             aA@283974555 |
+        run: |
+             ssh root@1.116.80.174 
+             aA@283974555
              ls
